@@ -1,12 +1,13 @@
 import json
 
+file_path = '../enterprise-attack/enterprise-attack.json'
 
 try:
-    with open('enterprise-attack.json', 'r') as file:
+    with open(file_path, 'r') as file:
         data = json.load(file)
     # print("JSON data loaded successfully:", data)
 except FileNotFoundError:
-    print("Error: The file 'your_file.json' was not found.")
+    print(f"Error: The file {file_path} was not found.")
 except json.JSONDecodeError:
     print("Error: Failed to decode JSON from the file. Check for malformed JSON.")
 
