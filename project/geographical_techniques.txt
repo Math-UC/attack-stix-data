@@ -1,0 +1,50 @@
+Ingress Tool Transfer
+Malicious File
+PowerShell
+Tool
+Spearphishing Attachment
+Windows Command Shell
+Web Protocols
+Match Legitimate Resource Name or Location
+Exploitation for Client Execution
+Scheduled Task
+Malicious File
+Spearphishing Attachment
+PowerShell
+Windows Command Shell
+Ingress Tool Transfer
+Tool
+Registry Run Keys / Startup Folder
+Scheduled Task
+Malicious Link
+Visual Basic
+Tool
+PowerShell
+LSASS Memory
+Ingress Tool Transfer
+Malicious File
+Scheduled Task
+Encrypted/Encoded File
+System Information Discovery
+Credentials from Web Browsers
+Spearphishing Attachment
+PowerShell
+Malicious File
+Spearphishing Attachment
+Tool
+Registry Run Keys / Startup Folder
+Process Discovery
+Ingress Tool Transfer
+Malicious Link
+Visual Basic
+Match Legitimate Resource Name or Location
+Malicious File
+System Information Discovery
+Spearphishing Attachment
+Windows Command Shell
+Process Discovery
+Scheduled Task
+Web Protocols
+Visual Basic
+Ingress Tool Transfer
+Registry Run Keys / Startup Folder

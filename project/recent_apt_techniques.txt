@@ -1,0 +1,29 @@
+Spearphishing Link
+PowerShell
+Ingress Tool Transfer
+Email Accounts
+Domains
+Match Legitimate Resource Name or Location
+Malicious File
+File Deletion
+Exploitation for Client Execution
+Tool
+Valid Accounts
+File and Directory Discovery
+Windows Command Shell
+LSASS Memory
+Spearphishing Attachment
+External Remote Services
+System Information Discovery
+Deobfuscate/Decode Files or Information
+System Network Configuration Discovery
+Windows Management Instrumentation
+Registry Run Keys / Startup Folder
+Remote Desktop Protocol
+Exploit Public-Facing Application
+Malicious Link
+Malware
+Process Discovery
+Keylogging
+System Network Connections Discovery
+Web Shell

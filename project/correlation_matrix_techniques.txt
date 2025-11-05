@@ -1,0 +1,47 @@
+Archive via Utility
+Data from Local System
+Deobfuscate/Decode Files or Information
+Domain Account
+Domains
+Email Accounts
+Exploit Public-Facing Application
+Exploitation for Client Execution
+External Remote Services
+File Deletion
+File and Directory Discovery
+Ingress Tool Transfer
+JavaScript
+LSASS Memory
+Local Account
+Malicious File
+Malicious Link
+Match Legitimate Resource Name or Location
+Mshta
+NTDS
+Network Service Discovery
+Pass the Hash
+PowerShell
+Process Discovery
+Query Registry
+Registry Run Keys / Startup Folder
+Remote Desktop Protocol
+Remote System Discovery
+Scheduled Task
+Security Software Discovery
+Spearphishing Attachment
+Spearphishing Link
+System Information Discovery
+System Network Configuration Discovery
+System Network Connections Discovery
+System Owner/User Discovery
+System Service Discovery
+Timestomp
+Tool
+Upload Malware
+Valid Accounts
+Visual Basic
+Web Protocols
+Web Services
+Web Shell
+Windows Command Shell
+Windows Management Instrumentation
