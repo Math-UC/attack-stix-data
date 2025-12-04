@@ -18,9 +18,9 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
 
-enterprise_file = BASE_DIR / "enterprise-attack.json"
-mobile_file = BASE_DIR / "mobile-attack.json"
-ics_file = BASE_DIR / "ics-attack.json"
+enterprise_file = "../enterprise-attack/enterprise-attack.json"
+mobile_file = "../mobile-attack/mobile-attack.json"
+ics_file = "../ics-attack/ics-attack.json"
 
 with open(enterprise_file, "r", encoding="utf-8") as f:
     stix = json.load(f)

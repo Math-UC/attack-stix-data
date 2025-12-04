@@ -1,5 +1,5 @@
 from .main_dataframe import (
-    main_df,
+    master_df,
     tech_df,
     tactics_df,
     rel_df,
@@ -8,7 +8,7 @@ from .main_dataframe import (
 )
 
 __all__ = [
-    "main_df",
+    "master_df",
     "tech_df",
     "tactics_df",
     "rel_df",
