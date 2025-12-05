@@ -4,6 +4,7 @@
 import json
 import pandas as pd
 from pathlib import Path
+from config import ENTERPRISE_ATTACK_DATA, MOBILE_ATTACK_DATA, ICS_ATTACK_DATA
 
 # Optional: remove unused imports if desired
 # from pprint import pprint
@@ -16,11 +17,9 @@ from pathlib import Path
 # Load ATT&CK JSON (using paths relative to this file)
 # ======================================================
 
-BASE_DIR = Path(__file__).resolve().parent
-
-enterprise_file = "../enterprise-attack/enterprise-attack.json"
-mobile_file = "../mobile-attack/mobile-attack.json"
-ics_file = "../ics-attack/ics-attack.json"
+enterprise_file = ENTERPRISE_ATTACK_DATA / "enterprise-attack.json"
+mobile_file = MOBILE_ATTACK_DATA / "mobile-attack.json"
+ics_file = ICS_ATTACK_DATA / "ics-attack.json"
 
 with open(enterprise_file, "r", encoding="utf-8") as f:
     stix = json.load(f)
