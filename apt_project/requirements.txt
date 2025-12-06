@@ -48,6 +48,7 @@ pyparsing==3.2.5
 python-dateutil==2.9.0.post0
 pytz==2025.2
 pyzmq==27.1.0
+RapidFuzz==3.14.3
 referencing==0.37.0
 rpds-py==0.30.0
 seaborn==0.13.2
