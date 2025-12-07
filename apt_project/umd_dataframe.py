@@ -26,8 +26,7 @@ import re
 
 # In[16]:
 
-
-umd_df = pd.read_csv("umd_cyber_events_database.csv")
+umd_df = pd.read_csv(APT_ROOT / "dfs/umd_cyber_events_database.csv")
 
 # Drop unnecessary columns
 drop_cols = ["nato", "eu", "shanghai_coop", "oas", "mercosur", "au", "ecowas", "asean", "opec", "gulf_coop", "g7", "g20", "aukus", "csto", "oecd", "osce", "five_eyes"]
