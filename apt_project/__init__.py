@@ -12,6 +12,12 @@ from .umd_dataframe import (
     umd_apts_df
 )
 
+from .technique_countries_stat import (
+    apt_scores_df,
+    origin_counts,
+    victim_counts
+)
+
 __all__ = [
     "master_df",
     "tech_df",
@@ -20,5 +26,8 @@ __all__ = [
     "groups_df",
     "group_techniques_df",
     "umd_df",
-    "umd_apts_df"
+    "umd_apts_df",
+    "apt_scores_df",
+    "origin_counts",
+    "victim_counts"
 ]
