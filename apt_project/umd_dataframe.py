@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[14]:
+# In[2]:
 
 
 import sys
@@ -14,7 +14,7 @@ from config import PROJECT_ROOT, APT_ROOT
 from apt_project import *
 
 
-# In[15]:
+# In[3]:
 
 
 import pandas as pd
@@ -24,7 +24,8 @@ import re
 
 # ## Create Dataframes
 
-# In[16]:
+# In[4]:
+
 
 umd_df = pd.read_csv(APT_ROOT / "dfs/umd_cyber_events_database.csv")
 
@@ -36,7 +37,7 @@ umd_df = umd_df.drop(columns=drop_cols)
 #umd_df
 
 
-# In[17]:
+# In[5]:
 
 
 # Prep list of all known APT groups and their aliases
@@ -71,7 +72,13 @@ for _, row in groups_df.iterrows():
             apt_map[normalize(alias)] = canon
 
 
-# In[18]:
+# In[11]:
+
+
+#groups_df
+
+
+# In[10]:
 
 
 paren_regex = re.compile(r"\((.*?)\)")
@@ -152,16 +159,34 @@ umd_apts_df = umd_df[umd_df["apt_group"].notna()].reset_index(drop=True)
 #umd_apts_df.sample(20)
 
 
+# ## Reverse Alias to Official Name Mapping
+
+# In[12]:
+
+
+alias_to_official = {}
+
+for _, row in groups_df.iterrows():
+    official = row["name"]
+    aliases = row["aliases"] or []
+
+    for alias in aliases:
+        alias_to_official[alias.lower()] = official
+
+    # Include official name itself
+    alias_to_official[official.lower()] = official
+
+
+# In[18]:
+
+
+#list(alias_to_official.items())[:30]
+
+
 # ## Export Dataframes
 
-# In[19]:
+# In[8]:
 
 
-# ======================================================
-# Public exports (what gets imported from the package)
-# ======================================================
-
-__all__ = [
-    "umd_apts_df"
-]
+#umd_apts_df.to_csv("umd_apts_df.csv",index=False)
 
